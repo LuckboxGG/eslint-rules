@@ -24,6 +24,8 @@ const backend = {
       "rules": {
         "node/no-missing-import": 0,
         "node/no-unsupported-features/es-syntax": 0,
+        "node/no-missing-require": 0,
+        "node/no-unpublished-import": 0,
       }
     }
   ],
