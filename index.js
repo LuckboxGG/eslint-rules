@@ -19,7 +19,7 @@ const backend = {
   },
   "overrides": [
     {
-      "files": [".ts"],
+      "files": ["*.ts"],
       "extends": ["plugin:@typescript-eslint/recommended"],
       "rules": {
         "node/no-missing-import": 0,
