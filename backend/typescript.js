@@ -1,5 +1,7 @@
 'use strict';
 
+const backendJSRules = require('./javascript');
+
 module.exports = {
   'overrides': [
     {
@@ -16,5 +18,6 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': 'error',
       },
     },
+    ...backendJSRules.overrides,
   ],
 };
