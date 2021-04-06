@@ -12,6 +12,9 @@ module.exports = {
         `${__dirname}/../common.js`,
         `${__dirname}/common.js`,
       ],
+      'rules': {
+        'node/exports-style': ['error', 'module.exports'],
+      },
     },
   ],
 };

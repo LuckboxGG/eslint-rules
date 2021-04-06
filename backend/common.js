@@ -15,7 +15,6 @@ module.exports = {
     'plugin:node/recommended',
   ],
   'rules': {
-    'node/exports-style': ['error', 'module.exports'],
     'node/no-extraneous-import': 'error',
     'node/no-unpublished-require': 'off',
     'node/no-missing-import': 'off',
@@ -27,7 +26,7 @@ module.exports = {
     'no-duplicate-imports': 'error',
     'no-only-tests/no-only-tests': 'error',
     'lines-between-class-members': ['error', 'always', { 'exceptAfterSingleLine': true }],
-    'brace-style': [ 'error', '1tbs', { 'allowSingleLine': false } ],
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': false }],
     'no-continue': 'off',
   },
 };
