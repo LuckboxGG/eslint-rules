@@ -5,7 +5,7 @@ module.exports = {
     {
       'files': ['*.js'],
       'parserOptions': {
-        'ecmaVersion': 10,
+        'ecmaVersion': 2020,
         'sourceType': 'script',
       },
       'extends': [
