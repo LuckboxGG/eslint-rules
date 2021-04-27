@@ -4,7 +4,7 @@
   "description": "Unified eslint rules between projects",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js common.js backend/**/*.js frontend/**/*.js"
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",

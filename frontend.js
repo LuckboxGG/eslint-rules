@@ -4,7 +4,7 @@ module.exports = {
   'parser': '@typescript-eslint/parser',
   'extends': [
     'airbnb',
-    `${__dirname}/../common.js`,
+    `${__dirname}/common.js`,
   ],
   'env': {
     'browser': true,
