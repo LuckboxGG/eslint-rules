@@ -8,9 +8,8 @@
 
 Rules are exposed as named CommonJS exports and are split into 3 distinct types: 
 
-* `frontend` - Frontend (combining both TypeScript and JavaScript rules) 
-* `backend` / `backendJS` - Backend JavaScript only rules
-* `backendTs` / `backendTS` - Backend TypeScript only rules
+* `frontend` - Frontend (TypeScript and JavaScript rules) 
+* `backend` - Backend (TypeScript and JavaScript rules)
 
 Example usage of backend JavaScript rules with ESLint configuration being loaded
 from `.eslintrc.js`:
