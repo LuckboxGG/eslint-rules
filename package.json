@@ -1,6 +1,6 @@
 {
   "name": "@luckbox/eslint-rules",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Unified eslint rules between projects",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
