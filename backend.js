@@ -34,7 +34,7 @@ module.exports = {
   'overrides': [
     {
       'files': ['*.js'],
-      'parser': 'babel-eslint',
+      'parser': '@babel/eslint-parser',
       'parserOptions': {
         'ecmaVersion': 2020,
         'sourceType': 'script',
