@@ -32,9 +32,16 @@ module.exports = {
   'overrides': [
     {
       'files': ['*.js'],
+      'parser': '@babel/eslint-parser',
       'parserOptions': {
         'ecmaVersion': 2020,
         'sourceType': 'script',
+        'requireConfigFile': false,
+        'babelOptions': {
+          'plugins': [
+            '@babel/plugin-proposal-class-properties',
+          ],
+        },
       },
       'rules': {
         'node/exports-style': ['error', 'module.exports'],
