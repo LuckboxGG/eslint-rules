@@ -9,7 +9,6 @@ module.exports = {
   'plugins': [
     'node',
     'no-only-tests',
-    'classProperties',
     '@babel/plugin-proposal-class-properties',
   ],
   'extends': [
