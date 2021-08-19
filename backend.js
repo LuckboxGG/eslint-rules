@@ -9,7 +9,6 @@ module.exports = {
   'plugins': [
     'node',
     'no-only-tests',
-    '@babel/plugin-proposal-class-properties',
   ],
   'extends': [
     `${__dirname}/common.js`,
@@ -38,6 +37,11 @@ module.exports = {
         'ecmaVersion': 2020,
         'sourceType': 'script',
         'requireConfigFile': false,
+        'babelOptions': {
+          'plugins': [
+            '@babel/plugin-proposal-class-properties',
+          ],
+        },
       },
       'rules': {
         'node/exports-style': ['error', 'module.exports'],
