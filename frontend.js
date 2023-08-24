@@ -112,4 +112,5 @@ module.exports = {
       },
     ],
     'react/jsx-wrap-multilines': 'off',
-  };
+  }
+};
