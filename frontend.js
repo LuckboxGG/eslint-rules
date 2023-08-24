@@ -63,21 +63,6 @@ module.exports = {
         'tsx': 'never',
       },
     ],
-    'no-restricted-imports': [
-      'error', {
-        'paths': [
-          {
-            'name': 'react-router-dom',
-            'importNames': ['Link'],
-            'message': 'Link is restricted. Please use LocalizedLink from views/i18n/LocalizedLink',
-          },
-          {
-            'name': 'connected-react-router/immutable',
-            'importNames': ['push'],
-            'message': 'push is restricted. Please use localizedPush from views/i18n/utils/localizedPush',
-          },
-        ],
-      }],
     'jsx-a11y/anchor-is-valid': 'error',
     'jsx-a11y/aria-props': 'error',
     'jsx-a11y/click-events-have-key-events': 'off',
@@ -96,6 +81,8 @@ module.exports = {
     'no-restricted-globals': [ 'error', 'event', 'fdescribe' ],
     'prefer-destructuring': 'off',
     'prefer-promise-reject-errors': 'off',
+    'implicit-arrow-linebreak': 'off',
+    'function-paren-newline': 'off',
 
     'react/button-has-type': [ 'error', { 'button': true, 'submit': true, 'reset': true } ],
     'react/default-props-match-prop-types': [ 'error', { 'allowRequiredDefaults': true } ],
@@ -111,6 +98,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': [ 'error', 'multiline' ],
     'react/jsx-fragments': [ 'error', 'element' ],
     'react/jsx-indent': 'off',
+    'react/jsx-indent-props': 'off',
     'react/jsx-no-target-blank': 'off',
     'react/jsx-one-expression-per-line': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -124,12 +112,4 @@ module.exports = {
       },
     ],
     'react/jsx-wrap-multilines': 'off',
-  },
-  'settings': {
-    'import/resolver': {
-      'webpack': {
-        'config': './internals/webpack/webpack.prod.babel.js',
-      },
-    },
-  },
-};
+  };
